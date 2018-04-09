@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.malek.expensesmanager.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <Button
+        android:id="@+id/groceriesButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/groceries"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/clothesButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/clothes"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <Button
+        android:id="@+id/funButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/fun"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/electronicsButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/electronics"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/billsButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/bills"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/gasButton"
+        android:layout_width="182dp"
+        android:layout_height="118dp"
+        android:text="@string/gas"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/othersButton"
+        android:layout_width="375dp"
+        android:layout_height="118dp"
+        android:text="@string/others"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+</android.support.constraint.ConstraintLayout>

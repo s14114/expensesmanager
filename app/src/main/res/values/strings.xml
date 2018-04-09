@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expenses Manager</string>
+    <string name="groceries">Groceries</string>
+    <string name="clothes">Clothes</string>
+    <string name="fun">Fun</string>
+    <string name="electronics">Electronics</string>
+    <string name="bills">Bills</string>
+    <string name="gas">Gas</string>
+    <string name="others">Others</string>
+
+</resources>
